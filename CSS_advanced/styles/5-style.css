@@ -16,27 +16,23 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
-body {
+body, a{
     color: var(--text-color);
+}
+
+body{
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-}
-
-a {
-    color: var(--text-color);
 }
 
 .visually-hidden {
     display: none;
 }
 
-.card-category {
-    color: var(--color-primary);
-}
-
-.section-tagline {
+.section-tagline, .card-category {
     color: var(--color-primary);
 }
 
